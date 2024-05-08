@@ -7,3 +7,5 @@ function News() {
         .then(response => response.json())
     }
 }
+
+export default News;
