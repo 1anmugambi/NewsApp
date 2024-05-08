@@ -1,18 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Mock from './Components/Mock/Mock'
+import { useState } from "react";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Mock from "./Components/Mock/Mock";
+import News from "./Components/News/Index";
 
 function App() {
-  
+
 
   return (
     <>
       <p>News App</p>
-    <Mock/>
+      <Mock />
+      <News />
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
