@@ -8,6 +8,7 @@ import Search from "./components/Search/Search";
 function App() {
   return (
     <>
+
       <Router>
         <NavBar />
         <Routes>
